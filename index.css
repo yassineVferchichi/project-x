@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+font-style: none;
+scroll-behavior: smooth;
+
+
+}
+header{
+    background: url(bac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+#i1{
+
+    height: 865px;
+    width: 450px;
+    gap: 100px;
+}
+#i2{
+
+    height: 865px;
+    width: 450px;
+    gap: 100px;
+    position: relative;
+    left: 950px;
+}
+p{
+    position: absolute;
+    left: 17%;
+    top: 25%;
+    font-size: 35px;
+    color: wheat;
+    font-weight: bolder;
+    font-family: 'Old Standard TT', serif; /* Choose a font that has a classic or antique feel */
+   
+    font-style: italic; /* Italicize the text for added elegance */
+    color: #ecb189; /* Choose a color that complements the vintage aesthetic */
+    text-shadow: 1px 1px 1px #000; /* Add a subtle text shadow for depth */
+    letter-spacing: 1px; /* Increase letter spacing for readability */
+    line-height: 1.5; /* Adjust line height for better legibility */
+    text-transform: uppercase; /* Convert text to uppercase for a more formal appearance */
+}
+
+#p1{
+    
+    margin-left: 200px;
+}
+#p2{
+    margin-left: 400px;
+}
+nav{
+    display: flex;
+    gap: 50px;
+   position: relative;
+   justify-content: center;
+   top: 500px;
+    font-family: 'Old Standard TT', serif; /* Choose a font that has a classic or antique feel */
+    font-size: 24px; /* Adjust the font size as needed */
+    font-style: italic; /* Italicize the text for added elegance */
+    color: #cc8e65; /* Choose a color that complements the vintage aesthetic */
+    text-shadow: 1px 1px 1px #000; /* Add a subtle text shadow for depth */
+    letter-spacing: 1px; /* Increase letter spacing for readability */
+    line-height: 1.5; /* Adjust line height for better legibility */
+    text-transform: uppercase; /* Convert text to uppercase for a more formal appearance */
+}
+a{
+    color: #cc8e65;
+    transition-duration: 0.5s;
+
+}
+main{
+    margin-top: 50px;
+    background: url(b1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i3{
+    
+    height: 867px;
+    width: 900px;
+}
+div{
+    position: relative;
+}
+#p3{
+    position: absolute ;
+    top:1000px;
+    font-size: 25px;
+    width: 700px;
+    left: 1000px;
+}
+a:hover{
+    color: wheat;
+    border-bottom:1px solid wheat;
+}
